@@ -10,7 +10,9 @@ function App() {
         <div className="col-2 sidebar" >
           <Sidebar></Sidebar>
         </div>
-        <div className="col-10">Home Page</div>
+        <div className="col-10">
+          
+        </div>
       </div>
     </div>
   );
