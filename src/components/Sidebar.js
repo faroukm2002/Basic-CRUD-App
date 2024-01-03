@@ -9,7 +9,7 @@ return(
         <Link to={'/products'}>get all Products </Link>
     </li>
     <li>
-        <a href="#">get all Categoies </a>
+        <Link href="#">get all Categoies </Link>
     </li>
     </ul>
     
