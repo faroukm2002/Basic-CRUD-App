@@ -40,11 +40,10 @@ return (
                 <td>{product.id}</td>
                 <td>{product.title}</td>
                 <td>{product.description.slice(0,20)}...</td>
-
                 <td>{product.price}</td>
                 <td>
                 <button className="btn btn-danger btn-sm">Delete </button>
-                <button className="btn btn-info btn-sm">View </button>
+                <Link to={`/products/${product.id}`} className="btn btn-info btn-sm" >View </Link>
                 <button className="btn btn-primary btn-sm">Edit </button>
     
                 </td>
