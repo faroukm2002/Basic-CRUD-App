@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import AddProduct from "./pages/AddProduct";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <div className="col-10">
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
-            <Route path="products" element={<Products></Products>}></Route>
-
+            <Route path="products" element={<Products></Products>}> </Route>
+            <Route path="products/add" element={<AddProduct></AddProduct>}></Route>
           </Routes>
         </div>
       </div>

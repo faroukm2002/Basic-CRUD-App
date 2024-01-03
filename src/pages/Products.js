@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
+
 function Products ()
 {
 return (
     <>
     <h1>Products Page</h1>
 
-        <button className="btn btn-success mt-2">Add New Product </button>
+       <Link to={'/products/add'}  className="btn btn-success mt-2">Add New Product </Link> 
     <table class="table table-striped mt-5">
     <thead>
         <tr>
