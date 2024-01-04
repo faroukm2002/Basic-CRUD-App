@@ -55,7 +55,7 @@ function Products() {
                             <tr key={product.id}>
                                 <td>{product.id}</td>
                                 <td>{product.title}</td>
-                                <td>{product.description.slice(0, 20)}...</td>
+                                <td>{product.description}</td>
                                 <td>{product.price}</td>
                                 <td>
                                     <button
